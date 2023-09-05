@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T12:28:12.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="IVmVwMpVCOW1XyI9lcXQ" version="21.7.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-05T12:57:35.756Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="gcR1ioHkEAHO2bkZrk2r" version="21.7.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="687" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,13 +188,15 @@
           <mxGeometry x="340" y="520" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T2KyIGb01WXYVXhn03GR-9" value="&lt;div&gt;strPB_EIVUseSerno = &quot;&quot;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;strPB_EIVUFrom = &quot;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;strPB_EIVUTo = &quot;&quot;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="400" width="200" height="80" as="geometry" />
+          <mxGeometry x="580" y="410" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T2KyIGb01WXYVXhn03GR-13" value="strPB_LastEIVUseSerno = &quot;&quot;&lt;br&gt;strPB_LastEIVUFrom = &quot;&quot;&lt;br&gt;strPB_LastEIVUTo = &quot;&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="520" width="200" height="80" as="geometry" />
+          <mxGeometry x="580" y="530" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l23Afc8hrfKOJ4Vjhvrq-1" target="l23Afc8hrfKOJ4Vjhvrq-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l23Afc8hrfKOJ4Vjhvrq-1" target="l23Afc8hrfKOJ4Vjhvrq-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="l23Afc8hrfKOJ4Vjhvrq-8" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l23Afc8hrfKOJ4Vjhvrq-6">
           <mxGeometry x="-0.1707" relative="1" as="geometry">
@@ -209,14 +211,49 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-1" value="確認是否為當期or上期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-1" value="檢查目前號碼&lt;br&gt;是否為現月份" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="640" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-5" value="CheckEIVMonth = True" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="760" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l23Afc8hrfKOJ4Vjhvrq-9" value="CheckEIVMonth = False" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="650" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l23Afc8hrfKOJ4Vjhvrq-13" target="l23Afc8hrfKOJ4Vjhvrq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-17" value="當期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l23Afc8hrfKOJ4Vjhvrq-16">
+          <mxGeometry x="-0.2397" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l23Afc8hrfKOJ4Vjhvrq-13" target="l23Afc8hrfKOJ4Vjhvrq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-13" value="CheckEIVMonth = True&lt;br&gt;檢查是當期發票還是上期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-15" value="blnIsLast = False" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="880" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;blnIsLast = True&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="770" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T2KyIGb01WXYVXhn03GR-9" target="T2KyIGb01WXYVXhn03GR-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="620" as="sourcePoint" />
+            <mxPoint x="580" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l23Afc8hrfKOJ4Vjhvrq-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
